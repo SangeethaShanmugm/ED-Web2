@@ -1,0 +1,27 @@
+https://github.com/ (create account)
+https://code.visualstudio.com/download  - vs code - download and install
+https://github.com/SangeethaShanmugm -  (follow)
+https://git-scm.com/downloads -( git bash download and install)
+
+
+
+HTML => Raw Structure
+Css => Look & Feel(Design)
+JavaScript => Logics
+JQuery => animation effects, DOM Manipulation, Ajax call(fetch) 
+Bootstrap =>3, 4, 5 => Responsive
+
+
+vs code extension
+----------------
+Live Server
+Prettier - Code formatter
+Code Spell Checker
+eslint
+githistory
+Auto Close Tag
+Auto Rename Tag
+JavaScript (ES6) code snippets
+
+
+HTML template  => shift + !
