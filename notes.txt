@@ -59,3 +59,29 @@ BoxModel
 Display
 Position 
 Selector
+
+
+Block element
+----
+
+>> block level element
+>> start on the new line
+>> occupy whole width
+>> eg: div, p , heading tags
+
+Inline element
+---------------
+
+>> Start in the same line
+>> only take space which is required
+>>eg: span, img, a, audio, formatting tags
+
+
+
+display: none and visibility: hidden difference?
+--------------------------------------------------
+
+display: none  => will not occupy space
+visibility: hidden => will occupy space
+
+display: block & visibility: visible => text will be visible
