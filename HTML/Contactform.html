@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contact Form</legend>
+            <label for="firstname">FirstName</label>
+            <input type="text" name="firstname" id="firstname" required autocomplete="on" />
+            <br />
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <br />
+            <br />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+            <br />
+            <br />
+            <label for="content">Choose the employee types</label>
+            <br />
+            <input type="radio" name="employeeType" id="salaried" value="salaried" />
+            <label>Salaried</label>
+
+            <input type="radio" name="employeeType" id="business" value="business" />
+            <label>Own Business</label>
+            <br />
+            <br />
+
+            <label>Class timings</label>
+
+            <input type="checkbox" name="timing1" id="timing1" value="9am-12pm" />
+            <label for="timing1">9am-12pm</label>
+            <input type="checkbox" name="timing2" id="timing2" value="12pm-3pm" />
+            <label for="timing2">12pm-3pm</label>
+            <input type="checkbox" name="timing3" id="timing3" value="9pm-10pm" />
+            <label for="timing3">9pm-10pm</label>
+            <br />
+            <br />
+            <select name="cars" id="cars">
+                <option value="bmw">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="rr">RR</option>
+                <optgroup label="Price">
+                    <option value="2cr-50cr">2cr-50cr</option>
+                    <option value="50cr-100cr">50cr-100cr</option>
+                </optgroup>
+            </select>
+
+
+            <br />
+            <br />
+
+
+            <input type="date" />
+
+            <input type="file" />
+            <input type="time" />
+
+
+            <textarea></textarea>
+            <br />
+            <br />
+
+            <datalist name="cars" id="cars">
+                <option value="bmw">
+                <option value="mercedes">
+                <option value="rr">
+            </datalist>
+
+
+            <button>Submit</button>
+        </fieldset>>
+    </form>
+</body>
+
+</html>
