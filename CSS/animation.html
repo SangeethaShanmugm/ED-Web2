@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            animation-name: colorChange;
+            animation-duration: 10s;
+            animation-iteration-count: 2;
+        }
+
+        @keyframes colorChange {
+            0% {
+                background-color: green;
+                left: 0px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: purple;
+                left: 100px;
+                top: 0px;
+            }
+
+            75% {
+                background-color: yellow;
+                left: 0px;
+                top: 100px
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>This is div</div>
+</body>
+
+</html>

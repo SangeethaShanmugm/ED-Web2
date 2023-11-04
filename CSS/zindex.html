@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative {
+            position: relative;
+        }
+
+        .z-index1 {
+            position: absolute;
+            border: 2px solid black;
+            height: 100px;
+            background-color: lightgreen;
+            z-index: 1;
+            top: 80px;
+            left: 70px;
+        }
+
+        .z-index2 {
+            position: absolute;
+            border: 2px solid black;
+            height: 100px;
+            width: 50%;
+            background-color: green;
+            z-index: 3;
+            top: 50px;
+            left: 50px;
+        }
+
+        .z-index3 {
+            position: absolute;
+            border: 2px solid black;
+            height: 100px;
+            width: 30%;
+            background-color: tomato;
+            z-index: 5
+        }
+
+        /* img {
+            position: absolute;
+            z-index: -1;
+            border: 2px solid black;
+        }
+
+        p {
+            background-color: green;
+        } */
+
+
+        /* body {
+            background-image: url("../scenary.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+        } */
+        body {
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Z-index example</h1>
+    <div class="relative">
+        <div class="z-index1">Z-index-1</div>
+        <div class="z-index2">Z-index-2</div>
+        <div class="z-index3">Z-index-3</div>
+    </div> -->
+
+    <!-- <img width="500px" height="400px"
+        src="https://db7hsdc8829us.cloudfront.net/dist/1658131456/i/c65491f263d84eb7a72a4b212e1c709d.jpeg?v=1687254908" />
+    <p>This is an example for z-index</p> -->
+
+    <!-- <img width="300px" height="300px"
+        src="https://thumbs.dreamstime.com/b/mountains-volcano-teide-clouds-beautiful-view-throw-sunny-day-tenerife-cenary-islands-spain-60402859.jpg" /> -->
+</body>
+
+</html>
