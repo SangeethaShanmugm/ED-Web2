@@ -85,3 +85,9 @@ display: none  => will not occupy space
 visibility: hidden => will occupy space
 
 display: block & visibility: visible => text will be visible
+
+
+
+flex -> one dimensional layout -> either rows or column
+
+grid => two dimensional layout -> both rows and columns
