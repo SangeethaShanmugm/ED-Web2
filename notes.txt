@@ -95,3 +95,18 @@ grid => two dimensional layout -> both rows and columns
 
 Undefined means the variable has been declared, but its value has not been assigned. 
 Null means an empty value or a blank value.
+
+
+Bootstrap
+----------
+
+>> Frontend Framework => easy and faster
+>> Templates => button, forms, table
+
+
+Adv
+---
+>> Easy to use
+>> Responsive
+>> Mobile-first approach
+>> Browser compatibility
