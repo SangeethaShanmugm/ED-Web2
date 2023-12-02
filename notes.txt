@@ -110,3 +110,37 @@ Adv
 >> Responsive
 >> Mobile-first approach
 >> Browser compatibility
+
+Bootstrap - 3
+--------------
+
+768px < xs => mobile device
+768px >= sm => tablet
+992px >= md => medium tablet and laptop
+1200px > lg
+
+xs => phones < 768px => .col-xs
+sm  => Tablets >= 768px => .col-sm-* => 768px - 991px 
+md => Laptop >= 992px =. .col-md-* => 992px - 1199px 
+lg => laptop & desktop >=1200px => .col-lg-* => 1200px and above
+
+
+Bootstrap4
+
+xs  => < 576px
+sm => >= 576px
+md => >= 768px
+lg => >= 992px
+xl => >= 1200px
+
+
+Bootstrap5
+
+576px < col-
+576px > sm
+768px > md
+992px > lg
+1200px > xl
+1400px > xxl
+
+

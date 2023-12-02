@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="boot.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Developer Funnel</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span style="color: green" class="glyphicon glyphicon-log-in"></span>
+                                Login
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#">
+                                <span style="color: red" class="glyphicon glyphicon-user"></span>
+                                Signup
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- panel -->
+
+
+        <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Students</div>
+            <div class="panel-body">
+                <!-- Table -->
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Roll No</th>
+                            <th>Name</th>
+                            <th>Class</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ananya</td>
+                            <td>Bootstrap</td>
+                            <td>
+                                <button type="button" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </button>
+                                <button type="button" class="btn btn-danger">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Aparna</td>
+                            <td>JS</td>
+                            <td>
+                                <button type="button" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </button>
+                                <button type="button" class="btn btn-danger">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Arjun</td>
+                            <td>CSS</td>
+                            <td>
+                                <button type="button" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-edit"></span>
+                                </button>
+                                <button type="button" class="btn btn-danger">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+        <br />
+        <br />
+
+        <!-- rows cols -->
+
+        <div class="row">
+            <div class="col-6" style="background-color: lightgreen;">Column 1</div>
+            <div class="col-6" style="background-color: pink;">Column 2</div>
+        </div>
+        <br />
+        <br />
+
+        <div class="row">
+            <div class="col-4" style="background-color: lightgreen;">Column 3</div>
+            <div class="col-4" style="background-color: pink;">Column 4</div>
+            <div class="col-4" style="background-color: pink;">Column 5</div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+            <div class="col-md-1" style=" background-color:skyblue">.col-md-1</div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4" style=" background-color:green">md column</div>
+            <div class="col-md-4" style=" background-color:blue">md column</div>
+            <div class="col-md-4" style=" background-color:purple">md column</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4" style=" background-color:green">sm column</div>
+            <div class="col-sm-4" style=" background-color:blue">sm column</div>
+            <div class="col-sm-4" style=" background-color:purple">sm column</div>
+
+            <div class="col-xs-4" style=" background-color:purple">xs column</div>
+            <div class="col-xs-4" style=" background-color:purple">xs column</div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div id="first" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">First</div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">second</div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">third</div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">fourth</div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">fifth</div>
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+</body>
+
+</html>
