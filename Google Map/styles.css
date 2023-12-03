@@ -1,0 +1,14 @@
+body {
+  background-color: lightgrey;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}

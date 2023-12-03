@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myElement").fadeIn(1500);
+            $("#myElement").fadeOut(1500);
+            $("#myElement").fadeToggle(1500);
+            // $("#div1").fadeToggle();
+            // $("#div2").fadeToggle("slow")
+            $("button").click(function () {
+                var div = $("#div1")
+                div.animate({ left: "200px" }, "slow");
+                div.animate({ fontSize: "5em" }, "slow")
+                div.animate({ backgroundColor: "blue" }, 2000)
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+    <div id="myElement" style="display: none">This is an example for fadeIn method</div>
+    <p>This is fade</p>
+    <button>Click Me</button>
+    <div id="div1" style="width: 100px; height: 100px; background-color: red; position:absolute">hello</div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+
+</html>

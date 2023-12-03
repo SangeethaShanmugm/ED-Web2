@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.com/v3.1/all", true)
+        xhr.send()
+        xhr.onload = function () {
+            //server => default data format  => JSON {"name":"John"}
+            var data = JSON.parse(this.response)
+            console.log(data)
+            console.log(data[0].name.common)
+            console.log(data[10].name.common)
+            for (var i in data) {
+                const res = data[i].name.common
+                console.log(res)
+            }
+        }
+
+        fetch("https://restcountries.com/v3.1/all")
+            .then((res) => res.json())
+            .then((data) => {
+                data.map((restCountry) => {
+                    console.log("Fetch data", restCountry)
+                })
+            })
+
+
+    </script>
+</body>
+
+</html>
