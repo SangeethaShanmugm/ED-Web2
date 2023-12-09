@@ -1,0 +1,141 @@
+header .menu {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: red;
+  background-color: white;
+  box-shadow: 0.1rem 0.3rem black;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+header .navbar {
+  right: 0;
+  width: 30rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: none;
+  background-color: black;
+}
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  z-index: 0;
+}
+
+.home .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  box-sizing: border-box;
+  border: none;
+  object-fit: cover;
+}
+
+.home .content {
+  /* background: rgb(79, 57, 61); */
+  text-align: center;
+  padding: 2rem 3rem;
+  width: 45rem;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5rem);
+}
+
+.home .content h1 {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.home .content .form-container form {
+  background-color: white;
+  box-shadow: 0.3rem 0.5rem lightgrey;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.home .content .form-container form h3 {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.home .content .form-container form span {
+  font-size: 2.5rem;
+  display: block;
+  color: red;
+  text-transform: capitalize;
+  float: left;
+  margin: 20px;
+}
+
+.home .content .form-container form input {
+  /* font-size: 2.5rem;
+    display: block;
+    color: red;
+    text-transform: capitalize; */
+  display: block;
+  font-size: 2.5rem;
+  color: red;
+  height: 3.5rem;
+  width: 80%;
+  font-size: 1.5rem;
+  background: white;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+.feature {
+  background-color: rgb(24, 24, 45);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.feature .heading {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.feature h3 {
+  color: #eee;
+  text-align: center;
+}
+
+.feature .card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature .card-container .card {
+  height: 45rem;
+  width: 30rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature .card-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

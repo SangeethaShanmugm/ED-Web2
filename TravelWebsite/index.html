@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#feature">feature</a></li>
+                <li> <a href="#about">about</a></li>
+                <li> <a href="#gallery">gallery</a></li>
+                <li> <a href="#review">review</a></li>
+                <li> <a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+
+    </header>
+    <!-- header ends -->
+
+    <!-- home section  starts -->
+
+    <section class="home" id="home">
+        <div class="video-container">
+            <video src="../Images/video.mp4" muted loop></video>
+        </div>
+
+        <div class="content">
+            <h1>explore</h1>
+            <h3>Its time to travel</h3>
+
+            <div class="form-container">
+                <form>
+                    <h3>Search your destination</h3>
+                    <span>Location</span>
+                    <input type="text" placeholder="Places you want to visit" />
+
+                    <span>Guest Members</span>
+                    <input type="number" placeholder="How many members?" />
+
+
+                    <span>arrival</span>
+                    <input type="date" />
+
+                    <span>leaving</span>
+                    <input type="date" />
+
+                    <input type="submit" value="search" />
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- home section  ends -->
+
+
+
+    <!-- feature section  ends -->
+    <section class="feature" id="feature">
+        <h1 class='heading'>Popular places</h1>
+        <h3>See the most featured places</h3>
+
+        <div class="card-container">
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1701874244251-7883821468df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                <div class="info">
+                    <h3>Tour 1 </h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1682685796852-aa311b46f50d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0Nnx8fGVufDB8fHx8fA%3D%3D" />
+                <div class="info">
+                    <h3>Tour 1 </h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1701707244542-bc22a6e5a8eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D" />
+                <div class="info">
+                    <h3>Tour 1 </h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section  ends -->
+    <script src="script.js"></script>
+</body>
+
+</html>

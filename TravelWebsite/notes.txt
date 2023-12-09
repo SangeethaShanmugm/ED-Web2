@@ -1,0 +1,5 @@
+header
+
+section  => home, feature, about, gallery, review, newsletter, contact
+
+footer

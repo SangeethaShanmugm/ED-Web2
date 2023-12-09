@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //     $("h1").dblclick(function () {
+        //         $(this).hide()
+        //     })
+        // })
+
+        // $(document).ready(function () {
+        //     $("h1").mouseenter(function () {
+        //         $("#h1tag").html("<p>Paragraph element</p>")
+        //     })
+        // })
+
+
+        // focus and blur
+        $(document).ready(function () {
+            $("input").focus(function () {
+                $(this).css("background-color", "red")
+            });
+            $("input").blur(function () {
+                $(this).css("background-color", "pink")
+            })
+            // $("#switch").click(function () {
+            //     $("#image").toggle()
+            // })
+            $("#image").on({
+                mouseover: function () {
+                    $(this).animate({
+                        'height': 500,
+                        'width': 500
+                    }, 3000)//3000 = 3000ms => 3s
+                },
+                mouseout: function () {
+                    $(this).animate({
+                        'height': 200,
+                        'width': 400
+                    }, 2000)//3000 = 3000ms => 3s
+                },
+
+            })
+        })
+
+    </script>
+</head>
+
+<body>
+
+    <h1 id="h1tag">Click 1</h1>
+    <h1>Click 2</h1>
+    <h1>Click 3</h1>
+
+    <form>
+        Name: <input type="text" name="name" />
+        Email:<input type="email" name="email" />
+    </form>
+
+    <br />
+    <br />
+    <button id="switch" style="font-size: 30px;">Toggle</button>
+
+    <br />
+    <br />
+
+    <div>
+        <img id="image" src="../Images/1.jpg" width="400" height="200" />
+    </div>
+</body>
+
+</html>
